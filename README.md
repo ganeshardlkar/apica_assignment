@@ -11,10 +11,6 @@ Least Recently Used cache is referred to as LRU cache. Computer systems employ t
 - Navigate to `client/` and run `npm install`
 - Start the respective servers using `go run main.go` and `npm start`
 
-### Screenshot/Recording
-
-<video controls src="20240301-0506-49.4488199.mp4" title="Title"></video>
-
 ### API endpoints exposed
 
 - `http://localhost:8080/get?key=${key}`
