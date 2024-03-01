@@ -25,7 +25,7 @@ func main() {
 	}
 	defer db.Close()
 
-	cache := cache.NewCache(1000, 20*time.Second, db)
+	cache := cache.NewCache(1024, 10*time.Second, db)
 
 	go cache.StartCleanup()
 

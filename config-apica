@@ -1,0 +1,11 @@
+apiVersion: v1
+clusters: null
+contexts:
+- context:
+    cluster: ""
+    user: ""
+  name: apica_context
+current-context: apica_context
+kind: Config
+preferences: {}
+users: null
